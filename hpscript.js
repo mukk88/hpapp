@@ -1,9 +1,9 @@
 // Array of house names and their corresponding audio files
 const houseData = [
-    { name: 'Griffindor', audioFile: 'audio/griff.mp3' },
-    { name: 'Slytherin', audioFile: 'audio/griff.mp3' },
-    { name: 'Hufflepuff', audioFile: 'audio/sly.mp3' },
-    { name: 'Ravenclaw', audioFile: 'audio/sly.mp3' }
+    { name: 'Griffindor', audioFile: 'griff.mp3' },
+    { name: 'Slytherin', audioFile: 'griff.mp3' },
+    { name: 'Hufflepuff', audioFile: 'sly.mp3' },
+    { name: 'Ravenclaw', audioFile: 'sly.mp3' }
 ];
 
 // Function to play a random house name

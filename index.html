@@ -7,10 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">        
+    <div class="container">
         <div class="random-house-container">
-            <button class="random-house-button" onclick="playRandomHouse()">
-                <div class="random-icon"></div>
+            <button class="random-house-button random-button" onclick="playRandomHouse('short', this)">
+                <div class="random-text">Short</div>
+            </button>
+            <button class="random-house-button random-button" onclick="playRandomHouse('long', this)">
+                <div class="random-text">Long</div>
+            </button>
+            <button class="random-house-button house-button" onclick="playHouseByName('Griffindor','short', this)">
+                <div class="random-text">Griffindor • Short</div>
+            </button>
+            <button class="random-house-button house-button" onclick="playHouseByName('Griffindor','long', this)">
+                <div class="random-text">Griffindor • Long</div>
+            </button>
+            <button class="random-house-button house-button" onclick="playHouseByName('Slytherin','short', this)">
+                <div class="random-text">Slytherin • Short</div>
+            </button>
+            <button class="random-house-button house-button" onclick="playHouseByName('Slytherin','long', this)">
+                <div class="random-text">Slytherin • Long</div>
+            </button>
+            <button class="random-house-button house-button" onclick="playHouseByName('Hufflepuff','short', this)">
+                <div class="random-text">Hufflepuff • Short</div>
+            </button>
+            <button class="random-house-button house-button" onclick="playHouseByName('Hufflepuff','long', this)">
+                <div class="random-text">Hufflepuff • Long</div>
+            </button>
+            <button class="random-house-button house-button" onclick="playHouseByName('Ravenclaw','short', this)">
+                <div class="random-text">Ravenclaw • Short</div>
+            </button>
+            <button class="random-house-button house-button" onclick="playHouseByName('Ravenclaw','long', this)">
+                <div class="random-text">Ravenclaw • Long</div>
             </button>
         </div>
         <div class="status" id="status"></div>

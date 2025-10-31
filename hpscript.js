@@ -1,9 +1,9 @@
 // Array of house names and their corresponding audio files
 const houseData = [
-    { name: 'Griffindor', audioFile: 'grifflong.m4a', shortAudioFile: 'griff.mp3' },
-    { name: 'Slytherin', audioFile: 'slylong.mp3', shortAudioFile: 'sly.mp3' },
-    { name: 'Hufflepuff', audioFile: 'hufflong.mp3', shortAudioFile: 'huff.mp3' },
-    { name: 'Ravenclaw', audioFile: 'rav.mp3', shortAudioFile: 'ravshort.mov' }
+    { name: 'Griffindor', audioFile: 'grylong.mp3', shortAudioFile: 'gryshort.mp3' },
+    { name: 'Slytherin', audioFile: 'slylong.mp3', shortAudioFile: 'slyshort.mp3' },
+    { name: 'Hufflepuff', audioFile: 'huflong.mp3', shortAudioFile: 'hufshort.mp3' },
+    { name: 'Ravenclaw', audioFile: 'ravlong.mp3', shortAudioFile: 'ravshort.mp3' }
 ];
 
 let currentAudio = null;
